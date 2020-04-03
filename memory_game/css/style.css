@@ -8,7 +8,7 @@ height: 0;
 font-size: 0;
 }
 
-footer{
+footer {
 	background-color: #0D2C40;
 	text-transform: uppercase;
 	padding: 0 20px;
@@ -31,7 +31,7 @@ text-align: center;
 margin: 0;
 }
 
-header{
+header {
 	background-color: #F15B31;
 	color: #FFFFFF;
 	padding: 30px 20px 30px 20px;
@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-color:white;
+color: white;
 }
 
 nav {
@@ -75,19 +75,19 @@ h2 {
 }
 
 p {
-	font-family: "DROID SERIF";
+	font-family: DROID SERIF;
 	line-height: 26px;
 	font-size: 18px;
 }
 
 
 
-main{
+main {
 	width: 850px;
 	margin: 35px auto;
 }
 
-img{
+img {
 	margin: 40px 8px 0 8px;
 }
 
