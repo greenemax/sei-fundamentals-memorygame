@@ -1,6 +1,5 @@
-let cardOne = "queen";
-let cardTwo = "king" ;
-let cardThree = "queen";
-let cardFour = "king";
-console.log("User flipped " + cardFour)
-console.log("User flipped " + cardThree)
+const cards = ["queen", "queen", "king", "king"];
+let cardOne = cards[0];
+const cardsInPlay = [];
+cardsInPlay.push('cardOne');
+console.log("User flipped " + cards[0]);
