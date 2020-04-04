@@ -1,11 +1,36 @@
-const cards = ["queen", "queen", "king", "king"]; // first array
+const cards = [
+{
+rank: "queen",
+suit: "hearts",
+cardImage: "images/queen-of-hearts.png"
+}, 
+{
+rank: "queen",
+suit: "diamonds",
+cardImage: "images/queen-of-diaminds.png"
+}, 
+{
+rank: "king",
+suit: "hearts",
+cardImage: "images/king-of-hearts.png"
+}, 
+{
+rank: "king",
+suit: "diamonds",
+cardImage: "images/king-of-diaminds.png"
+}
+];
 const cardsInPlay = []; // second array
-cardsInPlay.push(cards[0]);
-cardsInPlay.push(cards[2]);
+cardsInPlay.push(cards[0].rank);
+cardsInPlay.push(cards[2].rank);
 
 function flipCard (cardId) { 
-	console.log("User flipped " + cards[0]);
-	console.log("User flipped " + cards[2]);
+	console.log("User flipped " + cards[0].rank);
+	console.log("User flipped " + cards[2].rank);
+	console.log(cards[0].cardImage);
+	console.log(cards[0].suit);
+	console.log(cards[2].cardImage);
+	console.log(cards[2].suit);
 if (cardsInPlay.length === 2) {
 checkForMatch();
 }};
@@ -15,7 +40,7 @@ flipCard(1);
 
 function checkForMatch (){
 	if (cardsInPlay[0] === cardsInPlay[1]) {
-  console.log("You found a match!");
+  alert("You found a match!");
 } else {
-  console.log("Sorry, try again.");
+  alert("Sorry, try again.");
 }};
